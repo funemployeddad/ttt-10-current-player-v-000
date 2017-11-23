@@ -1,6 +1,6 @@
 def turn_count(board)
 counter = 0
-counter = board.count("X"|"O")
+counter = board.count("X", "O")
 end
 
 def current_player(board)
